@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.start-order{
+    display: flex;
+}
+.width-share{
+    width: 45%;
+    margin: 5%;
+}
+.width-share img{
+    width: 100%;
+}
+.width-share h1{
+    font-size: 50px;
+}
+.width-share p{
+    margin-bottom: 60px;
+}
+.button-item{
+    text-decoration: none;
+    background-image: linear-gradient(darkorange,tomato);
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    box-shadow: rgba(231, 62, 62, 0.35) 0px 5px 15px;
+}
+.orange{
+    color: orange;
+}
