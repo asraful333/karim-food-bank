@@ -4,10 +4,14 @@ body{
 }
 .start-order{
     display: flex;
+    margin-bottom: 50px;
 }
 .width-share{
-    width: 45%;
-    margin: 5%;
+    width: 50%;
+}
+.padding-left-top{
+    padding-left: 80px;
+    padding-top: 90px;
 }
 .width-share img{
     width: 100%;
@@ -28,4 +32,17 @@ body{
 }
 .orange{
     color: orange;
+}
+.about-myself{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
+#img-width{
+    width: 40%;
+    padding-top: 70px;
+    padding-left: 190px;
+}
+.padding-top-right{
+    padding-right: 150px;
+    padding-top: 100px;
 }
