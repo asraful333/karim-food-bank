@@ -2,6 +2,18 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.header{
+    color: orange;
+    text-decoration: none;
+    padding: 30px 0 30px 75px;
+    overflow: hidden;
+    position: fixed;
+}
+.header a{
+    color: orange;
+    text-decoration: none;
+    margin: 5px;
+}
 .start-order{
     display: flex;
     margin-bottom: 50px;
@@ -28,7 +40,7 @@ body{
     padding: 10px 20px;
     border-radius: 30px;
     color: white;
-    box-shadow: rgba(231, 62, 62, 0.35) 0px 5px 15px;
+    box-shadow: 5px 5px 20px tomato;
 }
 .orange{
     color: orange;
@@ -63,6 +75,40 @@ body{
 }
 .recipes img{
     width: 100%;
+}
+hr{
+    width: 85%;
+}
+#address-center{
+    text-align: center;
+}
+#margin-side{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.contact-box{
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 20px;
+    box-shadow: 5px 5px 20px grey;
+    border-radius: 20px;
+}
+.contact-box input[type=text], textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.button-center{
+    text-align: center;
+}
+#border{
+    border: none;
 }
 .footer{
     text-align: center;
