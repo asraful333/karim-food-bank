@@ -64,3 +64,10 @@ body{
 .recipes img{
     width: 100%;
 }
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
